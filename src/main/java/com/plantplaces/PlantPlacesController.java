@@ -6,8 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * @author csros
- *Handle the /start endpoint
- * @return
  */
 @Controller
 public class PlantPlacesController {
