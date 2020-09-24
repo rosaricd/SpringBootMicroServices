@@ -22,6 +22,12 @@ public class PlantPlacesController {
 		return "start";
 	}
 	
+	@RequestMapping(value="/start", method=RequestMethod.GET, headers= {"content-type=text/json"})
+	public String readJSON() {
+		
+		return "start";
+	}
+	
 	@RequestMapping(value="/start", method=RequestMethod.GET, params= {"loyalty=blue"})
 	public String readBlue() {
 		
